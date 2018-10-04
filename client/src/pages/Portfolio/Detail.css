@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+}
+img.img-rounded {
+    width:92vw;
+}
+
+@media screen and (min-width: 768px) {
+
+img.img-rounded {
+        width:45vw;
+    }  
+    h2{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    img.img-rounded {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }  
+    }
+

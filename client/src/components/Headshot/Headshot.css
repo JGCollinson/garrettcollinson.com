@@ -1,0 +1,11 @@
+  img.sticky {
+    border-radius: 50%;
+}
+@media screen and (max-width: 993px) {
+
+  img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          }
+        }

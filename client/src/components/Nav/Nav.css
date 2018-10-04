@@ -1,0 +1,42 @@
+
+
+.navbar-brand{
+    height: 100%;
+    padding: 0px;
+    border: 0px;
+}
+
+a.navbar-brand img{
+    height: 9vh;
+    padding-left: 20px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.sticky{
+    background-color: transparent;
+}
+
+.navbar{
+    border: 0px;
+}
+
+.headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-Index: 999;
+  }
+  .headroom--unfixed {
+    position: relative;
+    transform: translateY(0);
+  }
+  .headroom--scrolled {
+    transition: transform 0ms ease-in-out;
+  }
+  .headroom--unpinned {
+    position: fixed;
+    transform: translateY(-100%);
+  }
+  .headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+  }

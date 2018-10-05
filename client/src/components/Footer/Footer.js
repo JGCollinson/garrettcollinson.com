@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Container } from "../../components/Grid";
+import { Col, Row } from "../../components/Grid";
 import "./page-footer.css";
 import { SocialIcon } from 'react-social-icons';
 
@@ -12,18 +12,18 @@ render(){
             <Row>
                 <Col size="lg-6">
                     <div class="footer-desc text-center">
-                        <img src="https://storage.googleapis.com/public-1234/portfolio/logoAnalytics.png"/>
+                        <img src="https://storage.googleapis.com/public-1234/portfolio/logoAnalytics.png" alt=""/>
                         <p> Get help unlocking your company's potential <a href="/about/">Learn More</a>
                         </p>
                     </div>
                 </Col>
                 <Col size="lg-6">
                     <ul class="social">
-                        <li><SocialIcon url="https://www.facebook.com/garrettcollinson" color="#4b97f2" class="nav-link" style={{height: 25, width: 25}}/></li>
-                        <li><SocialIcon url="https://github.com/JGCollinson" color="#4b97f2" class="nav-link" style={{height: 25, width: 25}}/></li>
-                        <li><SocialIcon url="https://twitter.com/Smashing_Joe" color="#4b97f2" class="nav-link" style={{height: 25, width: 25}}/></li>
-                        <li><SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#4b97f2" class="nav-link" style={{height: 25, width: 25}}/></li>
-                        <li><SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#4b97f2" class="nav-link" style={{height: 25, width: 25}}/></li>
+                        <li><SocialIcon url="https://www.facebook.com/garrettcollinson" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
+                        <li><SocialIcon url="https://github.com/JGCollinson" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
+                        <li><SocialIcon url="https://twitter.com/Smashing_Joe" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
+                        <li><SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
+                        <li><SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
                     </ul>
                 </Col>
             </Row>  

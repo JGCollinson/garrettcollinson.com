@@ -10,7 +10,7 @@ const Nav = () => (
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/"><img src="https://storage.googleapis.com/public-1234/portfolio/logoAnalytics.png"></img></a>
+    <a class="navbar-brand" href="/"><img src="https://storage.googleapis.com/public-1234/portfolio/logoAnalytics.png" alt=""></img></a>
     
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="nav navbar-nav ml-auto">
@@ -29,12 +29,12 @@ const Nav = () => (
         <li class="nav-item">
         <a href="/Call" class="nav-link">Schedule Call</a>
         </li>
-        <li class="nav-item">
-        <SocialIcon url="https://www.facebook.com/garrettcollinson" color="#4b97f2" class="nav-link" style={{margin: "0.2em"}}/>
-        <SocialIcon url="https://github.com/JGCollinson" color="#4b97f2" class="nav-link" style={{margin: "0.2em"}}/>
-        <SocialIcon url="https://twitter.com/Smashing_Joe" color="#4b97f2" class="nav-link" style={{margin: "0.2em"}}/>
-        <SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#4b97f2" class="nav-link" style={{margin: "0.2em"}}/>
-        <SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#4b97f2" class="nav-link" style={{margin: "0.2em"}}/>
+        <li class="nav-item" id="social">
+        <SocialIcon url="https://www.facebook.com/garrettcollinson" color="#891DB8" style={{margin: "0.2em"}}/>
+        <SocialIcon url="https://github.com/JGCollinson" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
+        <SocialIcon url="https://twitter.com/Smashing_Joe" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
+        <SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
+        <SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
         </li>
       </ul>
     </div>

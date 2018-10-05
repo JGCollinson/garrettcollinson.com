@@ -8,10 +8,7 @@
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14",
     "react-router-dom": "^4.1.2",
-    "axios": "^0.16.2",
-    "prop-types": "^15.5.8",
-    "raf": "^3.3.0",
-    "shallowequal": "^0.2.2"
+    "axios": "^0.16.2"
   },
   "scripts": {
     "start": "react-scripts start",

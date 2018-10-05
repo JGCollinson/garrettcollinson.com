@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import API from "../../utils/API";
 import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid";
 import { Input, TextArea, FormBtn } from "../../components/Form";
@@ -8,48 +7,7 @@ import "./Contact.css";
 
 class Contact extends Component {
   state = {
-    Contact: [],
-    title: "",
-    author: "",
-    synopsis: ""
-  };
-
-  componentDidMount() {
-    this.loadContact();
-  }
-
-  loadContact = () => {
-    API.getContact()
-      .then(res =>
-        this.setState({ Contact: res.data, title: "", author: "", synopsis: "" })
-      )
-      .catch(err => console.log(err));
-  };
-
-  deleteBook = id => {
-    API.deleteBook(id)
-      .then(res => this.loadContact())
-      .catch(err => console.log(err));
-  };
-
-  handleInputChange = event => {
-    const { name, value } = event.target;
-    this.setState({
-      [name]: value
-    });
-  };
-
-  handleFormSubmit = event => {
-    event.preventDefault();
-    if (this.state.title && this.state.author) {
-      API.saveBook({
-        title: this.state.title,
-        author: this.state.author,
-        synopsis: this.state.synopsis
-      })
-        .then(res => this.loadContact())
-        .catch(err => console.log(err));
-    }
+    Contact: []
   };
 
   render() {

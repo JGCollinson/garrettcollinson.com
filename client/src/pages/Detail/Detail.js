@@ -1,20 +1,11 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid";
 import Headshot from "../../components/Headshot";
-import API from "../../utils/API";
 import "./Detail.css";
 class Detail extends Component {
   state = {
     Contact: {}
   };
-  // When this component mounts, grab the Contact with the _id of this.props.match.params.id
-  // e.g. localhost:3000/Contacts/599dcb67f0f16317844583fc
-  componentDidMount() {
-    API.getContact(this.props.match.params.id)
-      .then(res => this.setState({ Contact: res.data }))
-      .catch(err => console.log(err));
-  }
 
   render() {
     return (
@@ -51,7 +42,7 @@ class Detail extends Component {
                     click here to connect with me on linkedIn. 
                   </a>
                 </p>
-                <img class="img-rounded" src="https://storage.googleapis.com/public-1234/portfolio/datapyramid.png" />
+                <img class="img-rounded" src="https://storage.googleapis.com/public-1234/portfolio/datapyramid.png" alt="" />
                 </article>
             </section>
         </Col>

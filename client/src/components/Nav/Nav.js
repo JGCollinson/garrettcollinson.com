@@ -35,6 +35,7 @@ const Nav = () => (
         <SocialIcon url="https://twitter.com/Smashing_Joe" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
         <SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
         <SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
+        <SocialIcon network="email" href="mailto:jgarrettcollinson@outlook.com" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
         </li>
       </ul>
     </div>

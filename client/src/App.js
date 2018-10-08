@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Jumbotron from "./components/Jumbotron";
 import Detail from "./pages/Detail"
+import Portfolio from "./pages/Portfolio"
 import Call from "./pages/Call"
 
 
@@ -18,7 +19,7 @@ const App = () => (
         <Jumbotron />
         <Switch>
           <Route exact path="/" component={Detail} />
-          <Route exact path="/Portfolio" component={Detail} />
+          <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/Resume" component={Contact} />
           <Route exact path="/Call" component={Call} />

@@ -24,6 +24,7 @@ render(){
                         <li><SocialIcon url="https://twitter.com/Smashing_Joe" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
                         <li><SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
                         <li><SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
+                        <li><SocialIcon network="email" href="mailto:jgarrettcollinson@outlook.com" color="#891DB8" class="nav-link" style={{height: 40, width: 40 }}/></li>
                     </ul>
                 </Col>
             </Row>  

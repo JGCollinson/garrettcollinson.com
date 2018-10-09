@@ -45,3 +45,12 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.sticky{
     position: fixed;
     transform: translateY(0%);
   }
+
+  @media screen and (max-width: 793px) {
+    li#social a{
+      background-color: white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+    }
+  }

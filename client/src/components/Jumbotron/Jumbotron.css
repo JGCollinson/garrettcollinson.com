@@ -13,13 +13,14 @@
 
   .jumbotron {
     height: 30vh;
-    padding-top: 100px;
+    padding-top: 5vh;
     background-image: url('https://storage.googleapis.com/public-1234/portfolio/lua1IX1%20-%20Imgur.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
     font-family: 'Montserrat Subrayada', sans-serif;
           }
+
   div.jumbotron.text-center h1{
     font-size: 3.5vh;
   }

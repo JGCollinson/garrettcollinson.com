@@ -4,9 +4,6 @@
     margin:0;
 }
 
-p{
-    margin-left: 10px;
-}
 
 li {
     list-style: none;    
@@ -65,7 +62,7 @@ ul {
     margin: 5px;
 }
 
-.footer .footer .social li a:hover {
+.footer .footer .social li a{
     background-color: white;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;

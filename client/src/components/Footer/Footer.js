@@ -8,12 +8,13 @@ class FooterPage extends React.Component {
 render(){
     return(
     <footer class="footer">
+ 
     <div class="footer">
             <Row>
                 <Col size="lg-6">
                     <div class="footer-desc text-center">
                         <img src="https://storage.googleapis.com/public-1234/portfolio/logoAnalytics.png" alt=""/>
-                        <p> Get help unlocking your company's potential <a href="/about/">Learn More</a>
+                        <p> Get help unlocking your company's potential <a href="/">Learn More</a>
                         </p>
                     </div>
                 </Col>

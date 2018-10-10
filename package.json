@@ -30,6 +30,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "if-env": "^1.0.4",
+    "mailgun-js": "^0.21.0",
     "mdbreact": "^4.6.0",
     "mongoose": "^5.0.17",
     "react": "^16.5.2",

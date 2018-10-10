@@ -21,21 +21,21 @@ const Nav = () => (
           <a class="nav-link" href="/Portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Contact">Message</a>
+          <a class="nav-link" href="mailto:jgarrettcollinson@outlook.com">Message</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://storage.googleapis.com/public-1234/Josef%20Garrett%20Collinson%20Resume.pdf">Resume</a>
+          <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://storage.googleapis.com/public-1234/portfolio/Josef%20Garrett%20Collinson%20Resume%20(1).pdf">Resume</a>
         </li>
         <li class="nav-item">
         <a href="/Call" class="nav-link">Schedule Call</a>
         </li>
         <li class="nav-item" id="social">
-        <SocialIcon url="https://www.facebook.com/garrettcollinson" color="#891DB8" style={{margin: "0.2em"}}/>
-        <SocialIcon url="https://github.com/JGCollinson" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
-        <SocialIcon url="https://twitter.com/Smashing_Joe" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
-        <SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
-        <SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
-        <SocialIcon network="email" url="mailto:jgarrettcollinson@outlook.com" color="#891DB8" class="nav-link" style={{margin: "0.2em"}}/>
+        <SocialIcon url="https://www.facebook.com/garrettcollinson" color="#891DB8" style={{margin: "0.2em", height: 40, width:40}}/>
+        <SocialIcon url="https://github.com/JGCollinson" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
+        <SocialIcon url="https://twitter.com/Smashing_Joe" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
+        <SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
+        <SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
+        <SocialIcon network="email" url="mailto:jgarrettcollinson@outlook.com" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
         </li>
       </ul>
     </div>

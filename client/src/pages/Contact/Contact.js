@@ -3,12 +3,9 @@ import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid";
 import { Input, TextArea, FormBtn } from "../../components/Form";
 import "./Contact.css";
-
-
 class Contact extends Component {
   state = {
-    Contact: []
-  };
+  }
 
   render() {
     return (
@@ -20,9 +17,9 @@ class Contact extends Component {
           <h1>Garrett responds within 24 hours</h1>
           <form>
               <Input
-                value={this.state.title}
+                value={this.state.from}
                 onChange={this.handleInputChange}
-                name="title"
+                name="from"
                 placeholder="Your Email"
               />
               <Input
@@ -32,9 +29,9 @@ class Contact extends Component {
                 placeholder="Subject"
               />
               <TextArea
-                value={this.state.synopsis}
+                value={this.state.body}
                 onChange={this.handleInputChange}
-                name="synopsis"
+                name="body"
                 placeholder="Message Body"
               />
               <FormBtn

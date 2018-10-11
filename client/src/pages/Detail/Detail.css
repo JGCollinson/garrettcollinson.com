@@ -1,6 +1,8 @@
 img#resume{
 width: 100%;
+    display: block;
 }
+
 img#personal{
     width: 100vw;
     display: block;
@@ -21,13 +23,14 @@ ul.nav-tabs li.nav-item a:hover{
 
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 993px) {
 
 img.img-rounded {
         width:45vw;
     }  
     img#resume{
-        width: 40vw;
+        width: 45vw;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -38,10 +41,19 @@ img.img-rounded {
             margin-left: auto;
             margin-right: auto;
             }
+            img#resumeSmall{
+                display:none;
+            }
 }
 
 @media screen and (max-width: 993px) {
 
+    img#resume{
+        display: none;
+    }
+    img#resumeSmall{
+        width: 100%;
+    }
     img.img-round{
         display: block;
         margin-left: auto;

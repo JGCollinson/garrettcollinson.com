@@ -1,19 +1,18 @@
 .jumbotron {
-  min-height: 300px;
-  padding-top: 100px;
+  min-height: 7vh;
+  padding-top: 3vh;
   background-image: url('https://storage.googleapis.com/public-1234/portfolio/lua1IX1%20-%20Imgur.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
   font-family: 'Montserrat Subrayada', sans-serif;
+  margin-bottom: 0.35vh;
 
 }
 
 @media screen and (max-width: 636px) {
 
   .jumbotron {
-    height: 30vh;
-    padding-top: 5vh;
     background-image: url('https://storage.googleapis.com/public-1234/portfolio/lua1IX1%20-%20Imgur.gif');
     background-size: cover;
     background-repeat: no-repeat;

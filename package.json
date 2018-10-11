@@ -1,7 +1,10 @@
 {
   "name": "mern",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "node": "9.x"
+  },
+  "description": "Garrett Collinson's Portfolio Web Development",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -10,21 +13,24 @@
     "client": "cd client && npm run start",
     "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "build": "cd client && npm run build"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.3",
-    "babel-plugin-styled-components": "^1.7.1",
     "concurrently": "^3.5.0",
     "nodemon": "^1.11.0",
     "react-social-icons": "^3.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGCollinson/garrettcollinson.com"
+  },
+  "author": "Garrett Collinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://www.garrettcollinson.com/"
+  },
+  "homepage": "https://www.garrettcollinson.com/",
   "dependencies": {
-    "@babel/core": "^7.1.2",
     "@google-cloud/storage": "^2.0.3",
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
@@ -36,7 +42,6 @@
     "react": "^16.5.2",
     "react-headroom": "^2.2.4",
     "react-https-redirect": "^1.0.10",
-    "react-stonecutter": "^0.3.9",
     "styled-components": "^3.4.9",
     "webpack": "^4.20.2"
   }

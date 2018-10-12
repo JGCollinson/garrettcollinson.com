@@ -7,9 +7,9 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Deploy locally 
 <br>
--`npm i`
+- `npm i`
 <br>
--`npm start`
+- `npm start`
 
 ## Table of Contents
 

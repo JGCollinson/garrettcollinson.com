@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Themed with [Bootswatch Slate](https://bootswatch.com/slate/).
+
+##Deploy locally
+-`npm i`
+-`npm start`
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
@@ -88,7 +94,6 @@ You can find the most recent version of this guide [here](https://github.com/fac
   - [Surge](#surge)
 - [Advanced Configuration](#advanced-configuration)
 - [Troubleshooting](#troubleshooting)
-  - [`npm start` doesn’t detect changes](#npm-start-doesnt-detect-changes)
   - [`npm test` hangs on macOS Sierra](#npm-test-hangs-on-macos-sierra)
   - [`npm run build` exits too early](#npm-run-build-exits-too-early)
   - [`npm run build` fails on Heroku](#npm-run-build-fails-on-heroku)

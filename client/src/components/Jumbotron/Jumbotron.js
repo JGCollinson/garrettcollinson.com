@@ -9,7 +9,7 @@ const Jumbotron = () => (
     <h1>Full Stack Web Developer</h1>
     <h1>&#x025BE;
 </h1>
-    <h1>Data Analyst</h1>
+    <h1>Data Ops Engineer</h1>
   <Headshot />
   </div>
 );

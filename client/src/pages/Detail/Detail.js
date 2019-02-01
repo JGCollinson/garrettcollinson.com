@@ -1,11 +1,21 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
-import Headshot from "../../components/Headshot";
 import "./Detail.css";
+import moment from 'moment';
 class Detail extends Component {
   state = {
-    Contact: {}
+    TimeWorked: ""
   };
+
+   exp_time = () => { 
+     var elapsed = moment("20111031", "YYYYMMDD").fromNow();
+     this.setState({TimeWorked : elapsed});
+     return elapsed;
+    };
+    componentDidMount() {
+      this.exp_time().then(console.log(this.state.TimeWorked));
+    }
+    
 
   render() {
     return (

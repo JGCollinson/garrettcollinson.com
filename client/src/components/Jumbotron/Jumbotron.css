@@ -1,7 +1,7 @@
 .jumbotron {
   min-height: 7vh;
   padding-top: 3vh;
-  background-image: url('https://storage.googleapis.com/public-1234/portfolio/lua1IX1%20-%20Imgur.gif');
+  background-image: url('https://goo.gl/CmSDt5');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
@@ -13,7 +13,7 @@
 @media screen and (max-width: 636px) {
 
   .jumbotron {
-    background-image: url('https://storage.googleapis.com/public-1234/portfolio/lua1IX1%20-%20Imgur.gif');
+    background-image: url('https://goo.gl/CmSDt5');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;

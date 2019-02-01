@@ -21,10 +21,10 @@ const Nav = () => (
           <a class="nav-link" href="/Portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="mailto:jgarrettcollinson@outlook.com">Message</a>
+          <a class="nav-link" href="mailto:webdev@garrettcollinson.com?subject=We%20want%20to%20hire%20you!&body=Hello,%20I%20saw%20your%20website%20and%20I%20think%20you'd%20be%20a%20great%20fit%20with%20our%20team.%20Our%20compensation%20is%20XX$/hr%20or%20XXX,XXX$/year%20for%20the%20position%20I%20am%20reccomending.%20We%20(Do/Do%20Not)%20allow%20remote%20work.%20(This)%20is%20our%20vacation%20policy.%20(This)%20is%20the%20start%20date%20and%20(this)%20is%20the%20location.">Message</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://storage.googleapis.com/public-1234/portfolio/Josef%20Garrett%20Collinson%20Resume%20(1).pdf">Resume</a>
+          <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://goo.gl/vRD22S">Resume</a>
         </li>
         <li class="nav-item">
         <a href="/Call" class="nav-link">Schedule Call</a>
@@ -35,7 +35,7 @@ const Nav = () => (
         <SocialIcon url="https://twitter.com/Smashing_Joe" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
         <SocialIcon url="https://www.linkedin.com/in/j-garrett-collinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
         <SocialIcon url="https://www.instagram.com/garrettcollinson/" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
-        <SocialIcon network="email" url="mailto:jgarrettcollinson@outlook.com" color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
+        <SocialIcon network="email" url="mailto:webdev@garrettcollinson.com?subject=We%20want%20to%20hire%20you!&body=Hello,%20I%20saw%20your%20website%20and%20I%20think%20you'd%20be%20a%20great%20fit%20with%20our%20team.%20Our%20compensation%20is%20XX$/hr%20or%20XXX,XXX$/year%20for%20the%20position%20I%20am%20reccomending.%20We%20(Do/Do%20Not)%20allow%20remote%20work.%20(This)%20is%20our%20vacation%20policy.%20(This)%20is%20the%20start%20date%20and%20(this)%20is%20the%20location." color="#891DB8" class="nav-link" style={{margin: "0.2em", height: 40, width:40}}/>
         </li>
       </ul>
     </div>

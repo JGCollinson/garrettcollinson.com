@@ -1,21 +1,12 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import "./Detail.css";
-import moment from 'moment';
+import TimeAgo from 'react-timeago'
+            
 class Detail extends Component {
   state = {
-    TimeWorked: ""
+    TimeWorked:"1976-04-19T12:59-0500"
   };
-
-   exp_time = () => { 
-     var elapsed = moment("20111031", "YYYYMMDD").fromNow();
-     this.setState({TimeWorked : elapsed});
-     return elapsed;
-    };
-    componentDidMount() {
-      this.exp_time().then(console.log(this.state.TimeWorked));
-    }
-    
 
   render() {
     return (
@@ -36,8 +27,8 @@ class Detail extends Component {
   <div class="tab-pane fade active show" id="home">
   <h2>Brand Statement:</h2>
     <p> Garrett Collinson is a jr. web-developer, database architect,
-                  and data scientist rolled into a <span class="antiClock">fun</span> and friendly package with
-                  4 years of experience in high quality reporting.</p>   
+                  and data scientist rolled into a <span class="antiClock">fun</span> and friendly package that began working with data ops and programming&nbsp;
+                  <TimeAgo date='Jun 5, 2014' />.</p>   
                 <img id="resume" src="https://storage.googleapis.com/public-1234/portfolio/BannerGarrettcollinson2.png" alt="" />
 
   </div>
@@ -57,7 +48,7 @@ class Detail extends Component {
                   <h3>Personal Note:</h3>
     <p>
     Dear Reader,
-      <p>I truely have a passion for designing sustainable systems that help make peoples lives easier and more purpousful. Working as a data analyst I'll have that thought in mind when creating reports that inform and accuratly describe the reality of our efforts together. In web development I'll strive to design well documented, tested, and purposebuilt code as if I were designing for the louvre.</p>
+      <p>When I began working in Data Science <TimeAgo date='Jun 5, 2014' /> I realized that I have a passion for designing sustainable systems that help make peoples lives easier and more purpousful. Working as a data developer I'll have that thought in mind when creating reports, knowledge graphs, databases, and deployment that quickly and accuratly describe the reality of our efforts together. In web development I'll strive to deliver well documented, tested, and purposebuilt code as if I were designing for the louvre.</p>
 
 
 <p>I am a dedicated, flexible Data Analyst and Full Stack Web Developer with a founder’s mindset and a passion for high performance. I am very agile with my project and work styles, and I need minimal resources to perform at my highest potential. I am used to non-normal hours and will take every opportunity to excel at my job. </p>
@@ -71,7 +62,7 @@ class Detail extends Component {
 
 	</blockquote>	
 <p>
-In this case Google and Adobe Analytics allow us to perform large n (robust) statistical analytics that drive ROI and prove out the beauty of long term strategic thinking and data driven decision making. Efficiency and high performance systems are exciting to me. Our KPIs will be dollars-and-cents-driven with a healthy perspective on total impact to the organization. Almost everyone inside a business can benefit from having the right information at the right time and that requires a strong understanding of the people and the goals of the business.</p>
+In this case Google and Adobe Analytics allow us to perform robust statistical analytics that drive ROI and prove out the beauty of long term strategic thinking and data driven decision making. Efficiency and high performance systems are exciting to me. Our KPIs will be dollars-and-cents-driven with a healthy perspective on total impact to the organization. Almost everyone inside a business can benefit from having the right information at the right time and that requires a strong understanding of the people and the goals of the business.</p>
 
 -Garrett</p>
         <img id="personal" src="https://storage.googleapis.com/public-1234/portfolio/Fishing.jpg" alt="" />

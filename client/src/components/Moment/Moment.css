@@ -1,0 +1,15 @@
+nav.navbar {
+  margin-bottom: 0;
+}
+
+a.navbar-brand {
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 1.4em;
+}
+
+div.bs-component{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}

@@ -40,10 +40,13 @@
     "mailgun-js": "^0.21.0",
     "mdbreact": "^4.6.0",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
     "mongoose": "^5.0.17",
     "react": "^16.5.2",
     "react-headroom": "^2.2.4",
     "react-https-redirect": "^1.0.10",
+    "react-moment": "^0.8.4",
+    "react-timeago": "^4.3.0",
     "styled-components": "^3.4.9",
     "webpack": "^4.20.2"
   }

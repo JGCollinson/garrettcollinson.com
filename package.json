@@ -31,9 +31,11 @@
   },
   "homepage": "https://www.garrettcollinson.com/",
   "dependencies": {
+    "@google-cloud/bigquery": "^2.0.6",
     "@google-cloud/storage": "^2.4.1",
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.15.4",
     "express-ip": "^1.0.3",
     "if-env": "^1.0.4",
@@ -43,12 +45,14 @@
     "moment-timezone": "^0.5.23",
     "mongoose": "^5.4.9",
     "plotly.js": "^1.44.2",
+    "puppeteer": "^1.12.1",
     "react": "^16.7.0",
     "react-headroom": "^2.2.4",
     "react-https-redirect": "^1.1.0",
     "react-moment": "^0.8.4",
     "react-plotly.js": "^2.2.0",
     "react-timeago": "^4.3.0",
+    "request": "^2.88.0",
     "styled-components": "^3.4.9",
     "webpack": "^4.29.1"
   }

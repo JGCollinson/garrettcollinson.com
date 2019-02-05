@@ -62,7 +62,8 @@ class Detail extends Component {
   <div class="tab-pane fade" id="profile">
   <h2>GarrettCollinson.com:</h2>
   <p>
-                  If your organization needs a passionate developer for creating
+                  
+  If your organization needs a passionate consultant for creating
                   persistent systems that automatically provide intelligence
                   about crucial business operations with minimal set up and
                   oversight,&nbsp;
@@ -75,7 +76,7 @@ class Detail extends Component {
                   <h3>Personal Note:</h3>
     <p>
     Dear Reader,
-      <p>When I began working in Data Science <TimeAgo date='Jun 5, 2014' /> I realized that I have a passion for designing sustainable systems that help make peoples lives easier and more purpousful. Working as a data developer I'll have that thought in mind when creating reports, knowledge graphs, databases, and deployment that quickly and accuratly describe the reality of our efforts together. In web development I'll strive to deliver well documented, tested, and purposebuilt code as if I were designing for the louvre.</p>
+    <p>When I began consulting in Data Science <TimeAgo date='Jun 5, 2014' /> I realized that I have a passion for designing sustainable systems that help make peoples lives easier and more purpousful. Working as a data developer I'll have that thought in mind when creating reports, knowledge graphs, databases, and deployment that quickly and accuratly describe the reality of our efforts together. In web development I'll strive to deliver well documented, tested, and purposebuilt code as if I were designing for the louvre.</p>
 
 
 <p>I am a dedicated, flexible Data Analyst and Full Stack Web Developer with a founder’s mindset and a passion for high performance. I am very agile with my project and work styles, and I need minimal resources to perform at my highest potential. I am used to non-normal hours and will take every opportunity to excel at my job. </p>

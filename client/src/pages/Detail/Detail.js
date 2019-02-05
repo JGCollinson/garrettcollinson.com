@@ -1,13 +1,38 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
+import Stats from "../../components/Plotly";
+
 import "./Detail.css";
 import TimeAgo from 'react-timeago'
             
 class Detail extends Component {
   state = {
-    TimeWorked:"1976-04-19T12:59-0500"
+      data: [
+      {
+        x: [1, 2, 3],
+        y: [2, 6, 3],
+        type: 'bar',
+        mode: '',
+        marker: {color: '#C8A2C8', line:{ width: 2.5}},
+      },
+      {
+      type: 'bar',
+        x: [1, 2, 3],
+        y: [2, 5, 3]
+      },
+    ], 
+      layout: { title: 'Stat Flex', 
+      font:{ color: "white"},  
+      autosize: true, 
+      paper_bgcolor:"#242a2e",  
+      plot_bgcolor: "#242a2e", 
+      color: "#242a2e" },
+      useResizeHandler: true,
+    style: {width: "100%"}, 
+      frames: [], 
+      config: {}
   };
-
+  
   render() {
     return (
       <div>
@@ -15,6 +40,8 @@ class Detail extends Component {
 <Row>
 <Col size="lg-1"/>
         <Col size="lg-10">
+    <Stats data={this.state.data} layout={this.state.layout}  frames={this.state.frames} 
+  config={this.state.config} style={this.state.style} useResizeHandler={true}/>
               <ul class="nav nav-tabs">
   <li class="nav-item">
     <a class="nav-link active show" data-toggle="tab" href="#home">Brand Statement</a>
@@ -27,7 +54,7 @@ class Detail extends Component {
   <div class="tab-pane fade active show" id="home">
   <h2>Brand Statement:</h2>
     <p> Garrett Collinson is a jr. web-developer, database architect,
-                  and data scientist rolled into a <span class="antiClock">fun</span> and friendly package that began working with data ops and programming&nbsp;
+                  and data scientist rolled into a <span class="antiClock">fun</span> and friendly package that began working in data operations and programming&nbsp;
                   <TimeAgo date='Jun 5, 2014' />.</p>   
                 <img id="resume" src="https://storage.googleapis.com/public-1234/portfolio/BannerGarrettcollinson2.png" alt="" />
 

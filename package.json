@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0",
-    "react-social-icons": "^3.0.0"
+    "nodemon": "^1.18.9",
+    "react-social-icons": "^3.1.0"
   },
   "repository": {
     "type": "git",
@@ -31,23 +31,25 @@
   },
   "homepage": "https://www.garrettcollinson.com/",
   "dependencies": {
-    "@google-cloud/storage": "^2.0.3",
+    "@google-cloud/storage": "^2.4.1",
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "express-ip": "^1.0.3",
     "if-env": "^1.0.4",
     "mailgun-js": "^0.21.0",
-    "mdbreact": "^4.6.0",
+    "mdbreact": "^4.10.0",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.23",
-    "mongoose": "^5.0.17",
-    "react": "^16.5.2",
+    "mongoose": "^5.4.9",
+    "plotly.js": "^1.44.2",
+    "react": "^16.7.0",
     "react-headroom": "^2.2.4",
-    "react-https-redirect": "^1.0.10",
+    "react-https-redirect": "^1.1.0",
     "react-moment": "^0.8.4",
+    "react-plotly.js": "^2.2.0",
     "react-timeago": "^4.3.0",
     "styled-components": "^3.4.9",
-    "webpack": "^4.20.2"
+    "webpack": "^4.29.1"
   }
 }

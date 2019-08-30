@@ -16,18 +16,18 @@ const App = () => (
   <HttpsRedirect>
     <Router>
       <div>
-        {/* <Nav /> */}
-        {/* <Jumbotron /> */}
+        <Nav />
+        <Jumbotron />
         <Switch>
           <Route exact path="/" component={Detail} />
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/Resume" component={Contact} />
           <Route exact path="/Call" component={Call} />
-          <Route exact path="/Dash" component={Dash} />
+          {/* <Route exact path="/Dash" component={Dash} /> */}
           <Route component={NoMatch} />
         </Switch>
-      {/* <Footer /> */}
+      <Footer />
       </div>
     </Router>
   </HttpsRedirect>

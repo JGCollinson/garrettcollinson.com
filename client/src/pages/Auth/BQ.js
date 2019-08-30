@@ -6,18 +6,12 @@ const bigquery = new BigQuery({
   projectId: 'furniturecom-141118',
   keyFilename: '/Users/joscolli/Desktop/VSCode/garrettcollinson.com/GoogleCreds/furniturecom-141118-92d5a0c4c039.json'
 });
-// import API from "../../utils/API";
 
 class BQ extends Component {
   state = {
     rows: {}
   }
-    componentDidMount() {
-      loadTeams = () => {
-        API.findAllTeamsWithAvgRatings()
-          .then(res => this.setState({ teams: res.data }))
-          .catch(err => console.log(err));
-      };
+     componentDidMount() {
       // The SQL query to run
       const sqlQuery = `SELECT
         CONCAT(
@@ -35,9 +29,9 @@ class BQ extends Component {
         location: 'US',
       };
       // Runs the query
-      bigquery.query(options).then(function(rows) {
+       bigquery.query(options).then(function(rows) {
         this.setState({rows: JSON.stringify(rows)});
-      });
+       });
     };
   
     render() {

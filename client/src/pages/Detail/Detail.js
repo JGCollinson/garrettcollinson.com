@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
-import Stats from "../../components/Plotly";
+// import Stats from "../../components/Plotly";
 
 import "./Detail.css";
 import TimeAgo from 'react-timeago'
@@ -40,8 +40,8 @@ class Detail extends Component {
 <Row>
 <Col size="lg-1"/>
         <Col size="lg-10">
-    <Stats data={this.state.data} layout={this.state.layout}  frames={this.state.frames} 
-  config={this.state.config} style={this.state.style} useResizeHandler={true}/>
+    {/* <Stats data={this.state.data} layout={this.state.layout}  frames={this.state.frames} 
+  config={this.state.config} style={this.state.style} useResizeHandler={true}/> */}
               <ul class="nav nav-tabs">
   <li class="nav-item">
     <a class="nav-link active show" data-toggle="tab" href="#home">Brand Statement</a>
@@ -76,7 +76,7 @@ class Detail extends Component {
                   <h3>Personal Note:</h3>
     <p>
     Dear Reader,
-    <p>When I began consulting in Data Science <TimeAgo date='Jun 5, 2014' /> I realized that I have a passion for designing sustainable systems that help make peoples lives easier and more purpousful. Working as a data developer I'll have that thought in mind when creating reports, knowledge graphs, databases, and deployment that quickly and accuratly describe the reality of our efforts together. In web development I'll strive to deliver well documented, tested, and purposebuilt code as if I were designing for the louvre.</p>
+    <p>When I began consulting in Data Science <TimeAgo date='Jun 5, 2014' /> I realized that I have a passion for designing sustainable systems that help make peoples lives easier and more purposeful. Working as a data developer I'll have that thought in mind when creating reports, knowledge graphs, databases, and deployment that quickly and accurately describe the reality of our efforts together. In web development I'll strive to deliver well documented, tested, and purpose-built code as if I were designing for the Louvre.</p>
 
 
 <p>I am a dedicated, flexible Data Analyst and Full Stack Web Developer with a founder’s mindset and a passion for high performance. I am very agile with my project and work styles, and I need minimal resources to perform at my highest potential. I am used to non-normal hours and will take every opportunity to excel at my job. </p>

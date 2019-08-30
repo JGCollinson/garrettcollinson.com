@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 yarn.lock
 client/node_modules
+client/src/pages/Auth/BQ.css
+client/src/pages/Auth/BQ.js
+client/src/pages/Auth/index.js

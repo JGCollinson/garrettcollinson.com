@@ -42,7 +42,7 @@ render() {
         	target="_blank"
             href="https://jgcollinson.github.io/Jiftastic/"
             >
-			<img src="https://vignette.wikia.nocookie.net/logopedia/images/1/18/Jif_logo.svg/revision/latest/scale-to-width-down/408?cb=20101021195050"/>
+			<img src="https://storage.googleapis.com/public-1234/portfolio/Jif_logo.png"/>
 			</a>
 <div class="card-body">
 <button type="button" class="btn btn-info"><a href="https://jgcollinson.github.io/Jiftastic/" class="card-link">Demo</a></button>
@@ -62,7 +62,7 @@ render() {
         	target="_blank"
             href="https://jgcollinson.github.io/week-4-game/"
             >
-			<img src="http://www.g33kwatch.com/wp-content/uploads/2011/02/rpg.jpg"/>
+			<img src="https://storage.googleapis.com/public-1234/portfolio/dNd.jpg"/>
 			</a>
 			
 <div class="card-body">
@@ -109,7 +109,7 @@ render() {
         	target="_blank"
             href="https://jgcollinson.github.io/TrainScheduler/"
             >
-			<img src="http://img1.svstatic.com/voyage/sri-lanka-prendre-le-train_9315_w620.jpg"/>
+			<img src="https://storage.googleapis.com/public-1234/portfolio/sri_lanka_train.jpg"/>
 			</a>
 <div class="card-body">    
 <button type="button" class="btn btn-info"><a href="https://jgcollinson.github.io/TrainScheduler/" class="card-link">Demo</a></button>
@@ -157,7 +157,7 @@ render() {
         	target="_blank"
             href="https://jgcollinson.github.io/TriviaGame/#"
             >
-			<img src="http://starwarsblog.starwars.com/wp-content/uploads/2016/06/Screen-Shot-2016-06-09-at-12.29.41-PM-1536x864-479438850004.jpg"/>
+			<img src="https://storage.googleapis.com/public-1234/portfolio/Screen-Shot-2016-06-09-at-12.29.41-PM-1536x864-479438850004.jpg"/>
 			</a>
 <div class="card-body">
 <button type="button" class="btn btn-info"><a href="https://jgcollinson.github.io/TriviaGame/#" class="card-link">Demo</a></button>

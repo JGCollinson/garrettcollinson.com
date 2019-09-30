@@ -24,7 +24,7 @@ const Nav = () => (
           <a class="nav-link" href="mailto:webdev@garrettcollinson.com?subject=We%20want%20to%20hire%20you!&body=Hello,%20I%20saw%20your%20website%20and%20I%20think%20you'd%20be%20a%20great%20fit%20with%20our%20team.%20Our%20compensation%20is%20XX$/hr%20or%20XXX,XXX$/year%20for%20the%20position%20I%20am%20reccomending.%20We%20(Do/Do%20Not)%20allow%20remote%20work.%20(This)%20is%20our%20vacation%20policy.%20(This)%20is%20the%20start%20date%20and%20(this)%20is%20the%20location.">Message</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://storage.googleapis.com/public-1234/portfolio/Josef%20Garrett%20Collinson%20Resume%203.25.19.pdf?fbclid=IwAR1IwcrCrZj77dQlSK0U8A8dJA1Cp_kiSue65zppxA7gTbZqDQxKfr_bjxc">Resume</a>
+          <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://storage.googleapis.com/public-1234/portfolio/josef%20garrett%20collinson%20resume.pdf">Resume</a>
         </li>
         <li class="nav-item">
         <a href="/Call" class="nav-link">Schedule Call</a>

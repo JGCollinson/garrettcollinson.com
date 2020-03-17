@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "nodemon": "^2.0.2",
+    "nodemon": "^1.18.9",
     "react-social-icons": "^3.1.0"
   },
   "repository": {
@@ -31,6 +31,8 @@
   },
   "homepage": "https://www.garrettcollinson.com/",
   "dependencies": {
+    "@google-cloud/storage": "^2.4.1",
+    "react-social-icons": "^3.1.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "express-ip": "^1.0.3",
@@ -45,6 +47,6 @@
     "react-timeago": "^4.3.0",
     "request": "^2.88.0",
     "styled-components": "^3.4.9",
-    "react-scripts": "1.0.14"
+    "webpack": "^4.29.1"
   }
 }

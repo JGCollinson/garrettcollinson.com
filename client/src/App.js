@@ -3,6 +3,7 @@ import HttpsRedirect from 'react-https-redirect';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
+import Dash from "./pages/Dash";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Jumbotron from "./components/Jumbotron";
@@ -23,6 +24,7 @@ const App = () => (
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/Resume" component={Contact} />
           <Route exact path="/Call" component={Call} />
+          {/* <Route exact path="/Dash" component={Dash} /> */}
           <Route component={NoMatch} />
         </Switch>
       <Footer />

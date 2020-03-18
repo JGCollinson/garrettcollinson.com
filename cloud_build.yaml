@@ -1,9 +1,11 @@
 steps:
   # Install
-  - name: 'gcr.io/cloud-builders/yarn'
+  - name: 'node:13.10.1'
+    entrypoint: 'yarn'
     args: ['install']
    # build
-  - name: 'gcr.io/cloud-builders/yarn'
+  - name: 'node:13.10.1'
+    entrypoint: 'yarn'
     args: ['build']
   # Deploy
   - name: 'gcr.io/cloud-builders/gcloud'

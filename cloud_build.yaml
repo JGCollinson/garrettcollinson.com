@@ -7,7 +7,6 @@ steps:
   - name: 'node:13.10.1'
     entrypoint: 'yarn'
     args: ['build']
-  # Deploy
-  - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'deploy']
-    timeout: '600s'
+   # deploy
+  - name: "gcr.io/cloud-builders/gcloud"
+    args: ['app', 'deploy', 'app.yaml', '--verbosity', 'debug']

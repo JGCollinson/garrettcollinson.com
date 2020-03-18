@@ -1,10 +1,12 @@
 steps:
   # Install
-  - name: 'gcr.io/cloud-builders/npm'
+  - name: node:10.15.1
+    entrypoint: yarn
     args: ['install']
-  # Build
-  - name: 'gcr.io/cloud-builders/npm'
-    args: ['run-script', 'build']
+   # build
+  - name: node:10.15.1
+    entrypoint: yarn
+    args: ['build']
   # Deploy
   - name: 'gcr.io/cloud-builders/gcloud'
     args: ['app', 'deploy']

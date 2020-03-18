@@ -2,7 +2,7 @@
   "name": "mern",
   "version": "1.0.0",
   "engines": {
-    "node": "13.10.1"
+    "node": ">=0.10.3"
   },
   "description": "Garrett Collinson's Portfolio Web Development",
   "main": "server.js",
